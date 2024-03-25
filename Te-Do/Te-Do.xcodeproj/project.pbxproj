@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476DDA312BB101590097377B /* Te_DoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DDA302BB101590097377B /* Te_DoApp.swift */; };
+		476DDA332BB101590097377B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DDA322BB101590097377B /* ContentView.swift */; };
+		476DDA352BB1015B0097377B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476DDA342BB1015B0097377B /* Assets.xcassets */; };
+		476DDA382BB1015B0097377B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476DDA372BB1015B0097377B /* Preview Assets.xcassets */; };
+		476DDA422BB1015B0097377B /* Te_DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DDA412BB1015B0097377B /* Te_DoTests.swift */; };
+		476DDA4C2BB1015B0097377B /* Te_DoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DDA4B2BB1015B0097377B /* Te_DoUITests.swift */; };
+		476DDA4E2BB1015B0097377B /* Te_DoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DDA4D2BB1015B0097377B /* Te_DoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476DDA3E2BB1015B0097377B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476DDA252BB101590097377B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476DDA2C2BB101590097377B;
+			remoteInfo = "Te-Do";
+		};
+		476DDA482BB1015B0097377B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476DDA252BB101590097377B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476DDA2C2BB101590097377B;
+			remoteInfo = "Te-Do";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476DDA2D2BB101590097377B /* Te-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Te-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476DDA302BB101590097377B /* Te_DoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Te_DoApp.swift; sourceTree = "<group>"; };
+		476DDA322BB101590097377B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		476DDA342BB1015B0097377B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476DDA372BB1015B0097377B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		476DDA3D2BB1015B0097377B /* Te-DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Te-DoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476DDA412BB1015B0097377B /* Te_DoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Te_DoTests.swift; sourceTree = "<group>"; };
+		476DDA472BB1015B0097377B /* Te-DoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Te-DoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476DDA4B2BB1015B0097377B /* Te_DoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Te_DoUITests.swift; sourceTree = "<group>"; };
+		476DDA4D2BB1015B0097377B /* Te_DoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Te_DoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476DDA2A2BB101590097377B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DDA3A2BB1015B0097377B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DDA442BB1015B0097377B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476DDA242BB101590097377B = {
+			isa = PBXGroup;
+			children = (
+				476DDA2F2BB101590097377B /* Te-Do */,
+				476DDA402BB1015B0097377B /* Te-DoTests */,
+				476DDA4A2BB1015B0097377B /* Te-DoUITests */,
+				476DDA2E2BB101590097377B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476DDA2E2BB101590097377B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476DDA2D2BB101590097377B /* Te-Do.app */,
+				476DDA3D2BB1015B0097377B /* Te-DoTests.xctest */,
+				476DDA472BB1015B0097377B /* Te-DoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476DDA2F2BB101590097377B /* Te-Do */ = {
+			isa = PBXGroup;
+			children = (
+				476DDA302BB101590097377B /* Te_DoApp.swift */,
+				476DDA322BB101590097377B /* ContentView.swift */,
+				476DDA342BB1015B0097377B /* Assets.xcassets */,
+				476DDA362BB1015B0097377B /* Preview Content */,
+			);
+			path = "Te-Do";
+			sourceTree = "<group>";
+		};
+		476DDA362BB1015B0097377B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				476DDA372BB1015B0097377B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		476DDA402BB1015B0097377B /* Te-DoTests */ = {
+			isa = PBXGroup;
+			children = (
+				476DDA412BB1015B0097377B /* Te_DoTests.swift */,
+			);
+			path = "Te-DoTests";
+			sourceTree = "<group>";
+		};
+		476DDA4A2BB1015B0097377B /* Te-DoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				476DDA4B2BB1015B0097377B /* Te_DoUITests.swift */,
+				476DDA4D2BB1015B0097377B /* Te_DoUITestsLaunchTests.swift */,
+			);
+			path = "Te-DoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476DDA2C2BB101590097377B /* Te-Do */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476DDA512BB1015B0097377B /* Build configuration list for PBXNativeTarget "Te-Do" */;
+			buildPhases = (
+				476DDA292BB101590097377B /* Sources */,
+				476DDA2A2BB101590097377B /* Frameworks */,
+				476DDA2B2BB101590097377B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Te-Do";
+			productName = "Te-Do";
+			productReference = 476DDA2D2BB101590097377B /* Te-Do.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476DDA3C2BB1015B0097377B /* Te-DoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476DDA542BB1015B0097377B /* Build configuration list for PBXNativeTarget "Te-DoTests" */;
+			buildPhases = (
+				476DDA392BB1015B0097377B /* Sources */,
+				476DDA3A2BB1015B0097377B /* Frameworks */,
+				476DDA3B2BB1015B0097377B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476DDA3F2BB1015B0097377B /* PBXTargetDependency */,
+			);
+			name = "Te-DoTests";
+			productName = "Te-DoTests";
+			productReference = 476DDA3D2BB1015B0097377B /* Te-DoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		476DDA462BB1015B0097377B /* Te-DoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476DDA572BB1015B0097377B /* Build configuration list for PBXNativeTarget "Te-DoUITests" */;
+			buildPhases = (
+				476DDA432BB1015B0097377B /* Sources */,
+				476DDA442BB1015B0097377B /* Frameworks */,
+				476DDA452BB1015B0097377B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476DDA492BB1015B0097377B /* PBXTargetDependency */,
+			);
+			name = "Te-DoUITests";
+			productName = "Te-DoUITests";
+			productReference = 476DDA472BB1015B0097377B /* Te-DoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476DDA252BB101590097377B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					476DDA2C2BB101590097377B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					476DDA3C2BB1015B0097377B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 476DDA2C2BB101590097377B;
+					};
+					476DDA462BB1015B0097377B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 476DDA2C2BB101590097377B;
+					};
+				};
+			};
+			buildConfigurationList = 476DDA282BB101590097377B /* Build configuration list for PBXProject "Te-Do" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476DDA242BB101590097377B;
+			productRefGroup = 476DDA2E2BB101590097377B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476DDA2C2BB101590097377B /* Te-Do */,
+				476DDA3C2BB1015B0097377B /* Te-DoTests */,
+				476DDA462BB1015B0097377B /* Te-DoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476DDA2B2BB101590097377B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DDA382BB1015B0097377B /* Preview Assets.xcassets in Resources */,
+				476DDA352BB1015B0097377B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DDA3B2BB1015B0097377B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DDA452BB1015B0097377B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476DDA292BB101590097377B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DDA332BB101590097377B /* ContentView.swift in Sources */,
+				476DDA312BB101590097377B /* Te_DoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DDA392BB1015B0097377B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DDA422BB1015B0097377B /* Te_DoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476DDA432BB1015B0097377B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DDA4E2BB1015B0097377B /* Te_DoUITestsLaunchTests.swift in Sources */,
+				476DDA4C2BB1015B0097377B /* Te_DoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476DDA3F2BB1015B0097377B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476DDA2C2BB101590097377B /* Te-Do */;
+			targetProxy = 476DDA3E2BB1015B0097377B /* PBXContainerItemProxy */;
+		};
+		476DDA492BB1015B0097377B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476DDA2C2BB101590097377B /* Te-Do */;
+			targetProxy = 476DDA482BB1015B0097377B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		476DDA4F2BB1015B0097377B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		476DDA502BB1015B0097377B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476DDA522BB1015B0097377B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Te-Do/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grape2010.Te-Do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476DDA532BB1015B0097377B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Te-Do/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grape2010.Te-Do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		476DDA552BB1015B0097377B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grape2010.Te-DoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Te-Do.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Te-Do";
+			};
+			name = Debug;
+		};
+		476DDA562BB1015B0097377B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grape2010.Te-DoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Te-Do.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Te-Do";
+			};
+			name = Release;
+		};
+		476DDA582BB1015B0097377B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grape2010.Te-DoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Te-Do";
+			};
+			name = Debug;
+		};
+		476DDA592BB1015B0097377B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grape2010.Te-DoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Te-Do";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476DDA282BB101590097377B /* Build configuration list for PBXProject "Te-Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DDA4F2BB1015B0097377B /* Debug */,
+				476DDA502BB1015B0097377B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476DDA512BB1015B0097377B /* Build configuration list for PBXNativeTarget "Te-Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DDA522BB1015B0097377B /* Debug */,
+				476DDA532BB1015B0097377B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476DDA542BB1015B0097377B /* Build configuration list for PBXNativeTarget "Te-DoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DDA552BB1015B0097377B /* Debug */,
+				476DDA562BB1015B0097377B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476DDA572BB1015B0097377B /* Build configuration list for PBXNativeTarget "Te-DoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476DDA582BB1015B0097377B /* Debug */,
+				476DDA592BB1015B0097377B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476DDA252BB101590097377B /* Project object */;
+}
